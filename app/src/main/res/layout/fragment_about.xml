@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".fragment.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/abouttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textAppearance="@color/black"
+        android:text="Tentang Kami
+Selamat datang di Aplikasi UMKM solo,
+portal digital yang didedikasikan untuk menghubungkan Anda dengan
+keajaiban dan keragaman produk dari Usaha Mikro, Kecil, dan Menengah
+(UMKM) di kota bersejarah Solo. Kami hadir sebagai wadah yang
+menghimpun kreativitas lokal, keunikan budaya, dan inovasi dari
+para pelaku bisnis kecil yang memperkaya kota ini. Selain itu
+Aplikasi ini kami buat bertujuan untuk memberi kemudahan kepada
+warga masyarakat Surakarta dan sekitarnya untuk mencari UMKM
+di area Surakarta."
+        android:textSize="24dp" />
+
+
+</LinearLayout>
